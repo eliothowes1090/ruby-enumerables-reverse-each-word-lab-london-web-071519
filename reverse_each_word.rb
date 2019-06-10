@@ -1,3 +1,6 @@
-def reverse_each_word(array)
+require 'pry'
 
+def reverse_each_word(sentence)
+  binding.pry
+  sentence.to_a  
 end
