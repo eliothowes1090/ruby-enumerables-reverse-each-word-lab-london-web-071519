@@ -1,6 +1,5 @@
 require 'pry'
 
 def reverse_each_word(sentence)
-  binding.pry
-  sentence.to_a
+  sentence.split.each {|word| binding.pry word.reverse}
 end
